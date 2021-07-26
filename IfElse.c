@@ -16,9 +16,24 @@ int main()
         printf("x\n");//Here conditions false .So here hasn't any outpout
     }
     // If Else .When If conditions false . then it will go else block
-    
-
-
+    int ticket_price =200;
+    if(ticket_price<=200){ // <= it's called less then or equal to
+        printf("I will go.\n");
+    }
+    else
+    {
+        printf("I will not go.\n");
+    }
+    int f;
+    printf("Enter Your desire Number: \n");
+    scanf("%d",&f);
+    if(f%3==0 || f%5==0)// % it's called modulus ..It return remainder.When we divided any number with another number.If remainder 0.That's mean it divied by that number.
+       {
+        printf("Your Desire Number divied by 3 or 5\n");
+    }
+    else{
+        printf("Your desire number is not divisible by 3 or 5\n");
+    }
     return 0;
 }
 
