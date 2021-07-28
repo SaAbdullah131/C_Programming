@@ -19,6 +19,11 @@ int main()
     case 3:
     printf("Value is 3\n");
     break;
+
+    case 4+4: // when case value is 8 then it's true and print inside of it
+    printf("Value is 8\n");
+    break;
+
     default:
        printf("Not a match value\n");
     }
