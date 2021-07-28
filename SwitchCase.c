@@ -26,7 +26,11 @@ int main()
 
     default:
        printf("Not a match value\n");
-    }
+    } 
 
     return 0;
-}
+} 
+
+/*When using switch case. Two case aren't same 
+
+*/
