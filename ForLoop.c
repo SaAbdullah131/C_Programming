@@ -16,6 +16,16 @@ int main(){
     {
         printf("%d\n",b);
     }
+    int q,sum=0;
+    for ( q = 30; q <=120; q++)
+    {
+        if (q%3==0 && q%5==0)
+        {
+            sum=sum+q;
+        }
+        
+    }
+    printf("Sum is:%d\n");
     
 
     return 0;
