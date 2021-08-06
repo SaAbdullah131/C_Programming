@@ -9,8 +9,16 @@ int main()
         printf("Hello\n");
         x+=2;
     }
+    int a=2;
+    while (a>1)
+    {
+        printf("Value of a %d\n"); // infinity loop
+        a++;
+    }
     
 
 
     return 0;
 }
+// while(1) it's mean it's always true. It's a infinity loop.. 
+// Infinity loop doesn't false .
