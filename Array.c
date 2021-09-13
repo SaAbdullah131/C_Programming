@@ -14,5 +14,15 @@ int main(){
      a[2]=100;
      x=a[0]+a[2];
      printf("Result Second: %d\n",x);
+
+     int b[5]={12,13,15,16,17};
+     printf("Value of inex 0 is: %d\n",a[0]);
+     printf("Value of index 1 is: %d\n",a[1]);
+     int i;
+     for ( i = 0; i<5; i++)
+     {
+        printf("%d\n",b[i]);
+     }
+     
     return 0;
 }
