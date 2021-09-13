@@ -11,6 +11,8 @@ int main(){
    int x=a[0]+a[2];
 
     printf("Result is %d\n",x);
-
+     a[2]=100;
+     x=a[0]+a[2];
+     printf("Result Second: %d\n",x);
     return 0;
 }
