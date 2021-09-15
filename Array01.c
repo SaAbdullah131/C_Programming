@@ -3,7 +3,7 @@ int main(){
 
     int a[10],i;
     int sum=0;
-
+    printf("Enter The Values of Array: ");
     for ( i = 0; i <10; i++)
     {
         scanf("%d",&a[10]);
