@@ -11,6 +11,7 @@ int main(){
         }
         
     }
+    // print the taken value
     for ( i = 0; i < 3; i++)
     {
         for ( j = 0; j < 3; j++)
@@ -23,6 +24,6 @@ int main(){
     }
     float average=sum/9.0;
     printf("Average is: %.2f\n",average);
-
+    printf("\n");
      return 0;
 }
