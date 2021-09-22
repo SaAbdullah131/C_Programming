@@ -1,11 +1,16 @@
 #include<stdio.h>
+
+int GetSum(int x,int y){
+    int sum=x+y;
+    return sum;
+}
+ void SayHi(){
+    printf("Hi\n");
+
+}
 int main()
-{
-    int Sum(int x,int y){
-        float add=x+y;
-        return float;
-    }
-
-
+{   
+    printf("Main Start:\n");
+    SayHi();
     return 0;
 }
