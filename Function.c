@@ -12,5 +12,7 @@ int main()
 {   
     printf("Main Start:\n");
     SayHi();
+   int result= GetSum(100,20);
+   printf("Result is : %d\n",result);
     return 0;
 }
