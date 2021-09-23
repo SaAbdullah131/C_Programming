@@ -6,13 +6,13 @@ void EvenOrOdd(int n){
         printf("Even\n");
     }
     else{
-        printf("Odd");
+        printf("Odd\n");
     }
 
 
 }
 int main(){
 
-
+    EvenOrOdd(1);
     return 0;
 }
