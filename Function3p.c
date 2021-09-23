@@ -1,6 +1,11 @@
 #include<stdio.h>
- int main(){
+void PrintDivisor(int x){
+    int i;
+    
+}
+
+int main(){
 
 
-     return 0;
- }
+return 0;
+}
