@@ -17,5 +17,11 @@ int main(){
     printf("Enter the values of a and b: \n");
     scanf("%f%f",&a,&b);
     float addResult =add(a,b);
+    float SubtractResult=subtract(a,b);
+    float MultipleResult=multiple(a,b);
+    float dividedResult =divide(a,b);
     printf(" Addition of two number is: %.2f\n",addResult);
+    printf("Subtract of two number is: %.2f\n",SubtractResult);
+    printf("Multiple of two number is: %.2f\n",MultipleResult);
+    printf("Diviede of two number is: %.2f\n",dividedResult);
 }
