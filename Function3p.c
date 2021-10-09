@@ -13,7 +13,7 @@ void PrintDivisor(int x){
 }
 
 int main(){
-    PrintDivisor(10);
+    PrintDivisor(20);
 
 return 0;
 }
