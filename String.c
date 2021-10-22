@@ -2,7 +2,8 @@
 #include<stdio.h>
 int main(){
 
-char a[]={}
+char a[]={'1','2','3','4','a','b'};
+printf("%s\n",a);
 
 
 }
