@@ -3,8 +3,14 @@
 int main(){
 
 char a[]={'1','2','3','4','a','b'};
-printf("%s\n",a);
-
+char b[]="SA Abdullah is trying to be  a good learner";
+printf("%s \n",a);
+printf("%s \n",b);
+// input take and print it
+char name[20];
+printf("Enter Your Name: \n");
+gets(name);
+printf("Your name is: %s\n",name);
 
 }
 
